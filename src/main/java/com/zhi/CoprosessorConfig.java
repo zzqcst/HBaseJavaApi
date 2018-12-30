@@ -30,6 +30,7 @@ public class CoprosessorConfig {
             admin.modifyTable(TableName.valueOf("users"),tableDescriptor);
             admin.enableTable(tableName);
         } catch (IOException e) {
+
             e.printStackTrace();
         }
     }
